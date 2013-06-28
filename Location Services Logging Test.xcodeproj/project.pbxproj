@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8300D2A1177D389A00792BEF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8300D2A0177D389A00792BEF /* icon.png */; };
+		8300D2A3177D38A200792BEF /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8300D2A2177D38A200792BEF /* icon@2x.png */; };
 		830B15BD177C96E200512D14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830B15BC177C96E200512D14 /* UIKit.framework */; };
 		830B15BF177C96E200512D14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830B15BE177C96E200512D14 /* Foundation.framework */; };
 		830B15C1177C96E200512D14 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830B15C0177C96E200512D14 /* CoreGraphics.framework */; };
@@ -35,6 +37,8 @@
 /* Begin PBXFileReference section */
 		8300D29A177D33C300792BEF /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8300D29B177D33C300792BEF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		8300D2A0177D389A00792BEF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		8300D2A2177D38A200792BEF /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
 		830B15B9177C96E200512D14 /* Location Services Logging Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Location Services Logging Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		830B15BC177C96E200512D14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		830B15BE177C96E200512D14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -152,6 +156,8 @@
 				830B15C5177C96E200512D14 /* InfoPlist.strings */,
 				830B15C8177C96E200512D14 /* main.m */,
 				830B15CA177C96E200512D14 /* Location Services Logging Test-Prefix.pch */,
+				8300D2A0177D389A00792BEF /* icon.png */,
+				8300D2A2177D38A200792BEF /* icon@2x.png */,
 				830B15CE177C96E200512D14 /* Default.png */,
 				830B15D0177C96E200512D14 /* Default@2x.png */,
 				830B15D2177C96E200512D14 /* Default-568h@2x.png */,
@@ -245,6 +251,8 @@
 				830B15D1177C96E200512D14 /* Default@2x.png in Resources */,
 				830B15D3177C96E200512D14 /* Default-568h@2x.png in Resources */,
 				830B15D6177C96E200512D14 /* MainStoryboard.storyboard in Resources */,
+				8300D2A1177D389A00792BEF /* icon.png in Resources */,
+				8300D2A3177D38A200792BEF /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
