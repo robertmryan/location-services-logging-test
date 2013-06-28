@@ -17,10 +17,24 @@
 		830B15D1177C96E200512D14 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 830B15D0177C96E200512D14 /* Default@2x.png */; };
 		830B15D3177C96E200512D14 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 830B15D2177C96E200512D14 /* Default-568h@2x.png */; };
 		830B15D6177C96E200512D14 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830B15D4177C96E200512D14 /* MainStoryboard.storyboard */; };
-		830B15D9177C96E200512D14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 830B15D8177C96E200512D14 /* ViewController.m */; };
+		830B15E7177C972400512D14 /* LocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 830B15E0177C972400512D14 /* LocationService.m */; };
+		830B15E8177C972400512D14 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 830B15E2177C972400512D14 /* MapViewController.m */; };
+		830B15E9177C972400512D14 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 830B15E4177C972400512D14 /* Model.m */; };
+		830B15EA177C972400512D14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 830B15E6177C972400512D14 /* ViewController.m */; };
+		830B15F9177C9A9700512D14 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 830B15EF177C9A9700512D14 /* FMDatabase.m */; };
+		830B15FA177C9A9700512D14 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 830B15F1177C9A9700512D14 /* FMDatabaseAdditions.m */; };
+		830B15FB177C9A9700512D14 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 830B15F3177C9A9700512D14 /* FMDatabasePool.m */; };
+		830B15FC177C9A9700512D14 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 830B15F5177C9A9700512D14 /* FMDatabaseQueue.m */; };
+		830B15FE177C9A9700512D14 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 830B15F8177C9A9700512D14 /* FMResultSet.m */; };
+		830B1600177C9AC500512D14 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830B15FF177C9AC500512D14 /* CoreLocation.framework */; };
+		830B1602177C9ACC00512D14 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 830B1601177C9ACC00512D14 /* libsqlite3.dylib */; };
+		830B1604177C9AE600512D14 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830B1603177C9AE600512D14 /* MapKit.framework */; };
+		830B1607177CA5C200512D14 /* NSString+UrlEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 830B1606177CA5C200512D14 /* NSString+UrlEncode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8300D29A177D33C300792BEF /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8300D29B177D33C300792BEF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		830B15B9177C96E200512D14 /* Location Services Logging Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Location Services Logging Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		830B15BC177C96E200512D14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		830B15BE177C96E200512D14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -35,8 +49,31 @@
 		830B15D0177C96E200512D14 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		830B15D2177C96E200512D14 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		830B15D5177C96E200512D14 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		830B15D7177C96E200512D14 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		830B15D8177C96E200512D14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		830B15DF177C972400512D14 /* LocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationService.h; sourceTree = "<group>"; };
+		830B15E0177C972400512D14 /* LocationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationService.m; sourceTree = "<group>"; };
+		830B15E1177C972400512D14 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		830B15E2177C972400512D14 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		830B15E3177C972400512D14 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		830B15E4177C972400512D14 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		830B15E5177C972400512D14 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		830B15E6177C972400512D14 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		830B15EC177C9A7C00512D14 /* SystemVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemVersion.h; sourceTree = "<group>"; };
+		830B15EE177C9A9700512D14 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		830B15EF177C9A9700512D14 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		830B15F0177C9A9700512D14 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		830B15F1177C9A9700512D14 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		830B15F2177C9A9700512D14 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		830B15F3177C9A9700512D14 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		830B15F4177C9A9700512D14 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		830B15F5177C9A9700512D14 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		830B15F6177C9A9700512D14 /* fmdb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fmdb.m; sourceTree = "<group>"; };
+		830B15F7177C9A9700512D14 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		830B15F8177C9A9700512D14 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		830B15FF177C9AC500512D14 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		830B1601177C9ACC00512D14 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		830B1603177C9AE600512D14 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		830B1605177CA5C200512D14 /* NSString+UrlEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UrlEncode.h"; sourceTree = "<group>"; };
+		830B1606177CA5C200512D14 /* NSString+UrlEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UrlEncode.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +81,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				830B1604177C9AE600512D14 /* MapKit.framework in Frameworks */,
+				830B1602177C9ACC00512D14 /* libsqlite3.dylib in Frameworks */,
+				830B1600177C9AC500512D14 /* CoreLocation.framework in Frameworks */,
 				830B15BD177C96E200512D14 /* UIKit.framework in Frameworks */,
 				830B15BF177C96E200512D14 /* Foundation.framework in Frameworks */,
 				830B15C1177C96E200512D14 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +96,8 @@
 		830B15B0177C96E200512D14 = {
 			isa = PBXGroup;
 			children = (
+				8300D29B177D33C300792BEF /* README.md */,
+				8300D29A177D33C300792BEF /* LICENSE */,
 				830B15C2177C96E200512D14 /* Location Services Logging Test */,
 				830B15BB177C96E200512D14 /* Frameworks */,
 				830B15BA177C96E200512D14 /* Products */,
@@ -73,6 +115,9 @@
 		830B15BB177C96E200512D14 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				830B1603177C9AE600512D14 /* MapKit.framework */,
+				830B1601177C9ACC00512D14 /* libsqlite3.dylib */,
+				830B15FF177C9AC500512D14 /* CoreLocation.framework */,
 				830B15BC177C96E200512D14 /* UIKit.framework */,
 				830B15BE177C96E200512D14 /* Foundation.framework */,
 				830B15C0177C96E200512D14 /* CoreGraphics.framework */,
@@ -85,9 +130,16 @@
 			children = (
 				830B15CB177C96E200512D14 /* AppDelegate.h */,
 				830B15CC177C96E200512D14 /* AppDelegate.m */,
+				830B15EC177C9A7C00512D14 /* SystemVersion.h */,
 				830B15D4177C96E200512D14 /* MainStoryboard.storyboard */,
-				830B15D7177C96E200512D14 /* ViewController.h */,
-				830B15D8177C96E200512D14 /* ViewController.m */,
+				830B15EB177C973100512D14 /* View Controllers */,
+				830B15DF177C972400512D14 /* LocationService.h */,
+				830B15E0177C972400512D14 /* LocationService.m */,
+				830B15E3177C972400512D14 /* Model.h */,
+				830B15E4177C972400512D14 /* Model.m */,
+				830B1605177CA5C200512D14 /* NSString+UrlEncode.h */,
+				830B1606177CA5C200512D14 /* NSString+UrlEncode.m */,
+				830B15ED177C9A9700512D14 /* FMDB */,
 				830B15C3177C96E200512D14 /* Supporting Files */,
 			);
 			path = "Location Services Logging Test";
@@ -105,6 +157,36 @@
 				830B15D2177C96E200512D14 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		830B15EB177C973100512D14 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				830B15E5177C972400512D14 /* ViewController.h */,
+				830B15E6177C972400512D14 /* ViewController.m */,
+				830B15E1177C972400512D14 /* MapViewController.h */,
+				830B15E2177C972400512D14 /* MapViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		830B15ED177C9A9700512D14 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				830B15EE177C9A9700512D14 /* FMDatabase.h */,
+				830B15EF177C9A9700512D14 /* FMDatabase.m */,
+				830B15F0177C9A9700512D14 /* FMDatabaseAdditions.h */,
+				830B15F1177C9A9700512D14 /* FMDatabaseAdditions.m */,
+				830B15F2177C9A9700512D14 /* FMDatabasePool.h */,
+				830B15F3177C9A9700512D14 /* FMDatabasePool.m */,
+				830B15F4177C9A9700512D14 /* FMDatabaseQueue.h */,
+				830B15F5177C9A9700512D14 /* FMDatabaseQueue.m */,
+				830B15F6177C9A9700512D14 /* fmdb.m */,
+				830B15F7177C9A9700512D14 /* FMResultSet.h */,
+				830B15F8177C9A9700512D14 /* FMResultSet.m */,
+			);
+			name = FMDB;
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,7 +257,16 @@
 			files = (
 				830B15C9177C96E200512D14 /* main.m in Sources */,
 				830B15CD177C96E200512D14 /* AppDelegate.m in Sources */,
-				830B15D9177C96E200512D14 /* ViewController.m in Sources */,
+				830B15E7177C972400512D14 /* LocationService.m in Sources */,
+				830B15E8177C972400512D14 /* MapViewController.m in Sources */,
+				830B15E9177C972400512D14 /* Model.m in Sources */,
+				830B15EA177C972400512D14 /* ViewController.m in Sources */,
+				830B15F9177C9A9700512D14 /* FMDatabase.m in Sources */,
+				830B15FA177C9A9700512D14 /* FMDatabaseAdditions.m in Sources */,
+				830B15FB177C9A9700512D14 /* FMDatabasePool.m in Sources */,
+				830B15FC177C9A9700512D14 /* FMDatabaseQueue.m in Sources */,
+				830B15FE177C9A9700512D14 /* FMResultSet.m in Sources */,
+				830B1607177CA5C200512D14 /* NSString+UrlEncode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +389,7 @@
 				830B15DE177C96E200512D14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
